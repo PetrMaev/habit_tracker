@@ -39,10 +39,24 @@ python manage.py runserver
 2. Регистрация
 3. Авторизация
 4. Валидация на выбор связанной привычки и указания вознаграждения 
-5. Пагинация списка привычек
-6. Интеграция сервиса с мессенджером Telegram, который занимается рассылкой уведомлений
+5. Пагинация списка привычек по 5 привычек на страницу
+6. Интеграция сервиса с мессенджером Telegram, который рассылает уведомления
+### Запуск работы сервиса рассылки уведомлений с помощью Telegram
+1. Настройте и запустите брокер сообщений, например Redis.
+2. Запустите Celery worker командой:
+```python
+celery -A config worker -l INFO
+```
+Для Windows при указании обработчика событий необходимо добавить флаг -P eventlet
+3. Запустите планировщик Celery beat командой
+```python
+celery -A config beat -l INFO
+```
+Данный порядок действий запустит планировщик задач в фоновом режиме и будет рассылать напоминания пользователям о полезных привычках.
 ## Документация:
 - Документация [Django](https://django.fun/docs/django/5.2/)
 - Документация [Django Rest Framework](https://www.django-rest-framework.org/)
 - Документация [Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html)
 - Документация [Celery](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
+- Документация [Telegram API](https://dshubenok.github.io/week4/telegram-api/)
+- Документация [CORS](https://pypi.org/project/django-cors-headers/)

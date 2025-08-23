@@ -1,0 +1,152 @@
+[
+{
+    "model": "habits.habit",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "place": "Ванная комната",
+        "time": "06:30:00",
+        "action": "Чистить зубы",
+        "pleasant_habit": null,
+        "periodicity": 1,
+        "reward": "Чашка кофе на завтрак",
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "place": "test",
+        "time": "06:30:00",
+        "action": "tested",
+        "pleasant_habit": null,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "place": "test",
+        "time": "06:30:00",
+        "action": "tested",
+        "pleasant_habit": 1,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "place": "test2",
+        "time": "06:30:00",
+        "action": "tested",
+        "pleasant_habit": 3,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "place": "test2",
+        "time": "06:30:00",
+        "action": "tested",
+        "pleasant_habit": 3,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "place": "test3",
+        "time": "06:30:00",
+        "action": "tested",
+        "pleasant_habit": 2,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "place": "test3",
+        "time": "14:20:00",
+        "action": "tested",
+        "pleasant_habit": 2,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 9,
+    "fields": {
+        "user": 1,
+        "place": "test5",
+        "time": "15:00:00",
+        "action": "tested",
+        "pleasant_habit": 2,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 10,
+    "fields": {
+        "user": 1,
+        "place": "test7",
+        "time": "16:50:00",
+        "action": "tested",
+        "pleasant_habit": 2,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habit",
+    "pk": 11,
+    "fields": {
+        "user": 1,
+        "place": "test7",
+        "time": "15:27:00",
+        "action": "tested",
+        "pleasant_habit": 2,
+        "periodicity": 1,
+        "reward": null,
+        "time_to_complete": 120,
+        "is_public": false
+    }
+}
+]
