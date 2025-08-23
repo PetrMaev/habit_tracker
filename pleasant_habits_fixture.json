@@ -1,0 +1,29 @@
+[
+{
+    "model": "habits.pleasanthabit",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "action": "Принять ванну с пеной",
+        "is_pleasant": true
+    }
+},
+{
+    "model": "habits.pleasanthabit",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "action": "Принять ванну с пеной",
+        "is_pleasant": true
+    }
+},
+{
+    "model": "habits.pleasanthabit",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "action": "test validate",
+        "is_pleasant": false
+    }
+}
+]
