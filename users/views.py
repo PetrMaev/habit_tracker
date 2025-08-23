@@ -3,11 +3,11 @@ from rest_framework.permissions import IsAuthenticated
 
 from users.models import CustomUser
 from users.permissions import IsModer, IsUserOwner
-from users.serializers import CustomUserSerializer
+from users.serializers import CustomUserSerializer, CustomUserCreateSerializer
 
 
 class UserRegisterAPIView(generics.CreateAPIView):
-    serializer_class = CustomUserSerializer
+    serializer_class = CustomUserCreateSerializer
 
     def perform_create(self, serializer):
         user = serializer.save(is_active=True)
